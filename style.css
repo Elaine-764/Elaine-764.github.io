@@ -1,8 +1,79 @@
-body {
-  background-color: #FFFFF0;
+body{
+  padding: 25px;
+  background-color: #fffff7;
+  font-family: Bookman, URW Bookman L, serif;
 }
-
+.title {
+	color: #2e1402;
+	font-size: 24px;
+}
 h1 {
   text-align: auto;
-  text-color: #6E260E;
+  color: #eccc99;
+}
+.card {
+  width: 80%;
+  background: rgba(222,184,135, 0.4);
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: inline-block;  
+}
+.card h2 {
+  font-size: 18px;
+  margin-top:-5px;
+  margin-bottom: -10px;
+}
+p{
+  font-family: Optima, sans-serif;
+}
+.description {
+  font-size:14px;
+  margin-left: 9%;
+}
+.description p {
+  margin-top:-5px;
+}
+.name {
+  margin-bottom: -10px;
+  margin-top: 30px;
+  text-align: left;
+}
+.name p {
+  display: inline-block;
+}
+
+ul.a {
+  font-family: Optima, sans-serif;
+  font-size:14px;
+  margin-top:-8px;
+}
+.dates {
+  text-align: right;
+  font-family: Garamond, serif;
+  width: 25%;
+}
+.place {
+  text-align: left;
+  width: 75%;
+}
+hr {
+  margin-bottom: 20px;
+  border-color: #2e1402;
+  margin-top: 15px;
+}
+img {
+  border-radius: 50%;
+  max-width: 40px;
+  height: auto;
+  vertical-align:middle;
+}
+.top {
+  margin-top:-15px;
+}
+br {
+  height: 10px;
 }
