@@ -1,11 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body{
   padding: 25px;
   background-color: #fffff7;
-  font-family: Bookman, URW Bookman L, serif;
+  font-family: Georgia, Times, 'Times New Roman', serif;
 }
 .title {
 	color: #2e1402;
-	font-size: 24px;
+	font-size: 28px;
 }
 h1 {
   text-align: auto;
@@ -17,30 +21,32 @@ h1 {
   margin-left: 30px;
   margin-right: 30px;
   padding: 20px;
-  max-width: 500px;
-  border-radius: 10px;
+  max-width: 45%;
+  /* border-radius: 10px; */
   margin-bottom: 20px;
   display: inline-block;  
 }
 .card h2 {
-  font-size: 18px;
-  margin-top:-5px;
+  font-size: 22px;
+  margin-top: 0px;
   margin-bottom: -10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 p{
   font-family: Optima, sans-serif;
 }
 .description {
-  font-size:14px;
+  font-size:16px;
   margin-left: 9%;
 }
 .description p {
-  margin-top:-5px;
+  margin-top:5px;
 }
 .name {
   margin-bottom: -10px;
   margin-top: 30px;
   text-align: left;
+  font-size: 18px;
 }
 .name p {
   display: inline-block;
@@ -49,8 +55,9 @@ p{
 ul.a {
   font-family: Optima, sans-serif;
   font-size:14px;
-  margin-top:-8px;
+  margin-top:0px;
 }
+
 .dates {
   text-align: right;
   font-family: Garamond, serif;
@@ -59,21 +66,37 @@ ul.a {
 .place {
   text-align: left;
   width: 75%;
+  margin-bottom: 10px;
 }
 hr {
-  margin-bottom: 20px;
-  border-color: #2e1402;
+  margin-bottom: 25px;
+  color: #2e1402;
   margin-top: 15px;
+  height: 3px;
+  background-color: #2e1402;
 }
 img {
   border-radius: 50%;
   max-width: 40px;
   height: auto;
-  vertical-align:middle;
+  vertical-align: middle;
+  display: inline-block;
 }
 .top {
   margin-top:-15px;
 }
 br {
   height: 10px;
+}
+.bg-brown-1 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(242 237 234 / var(--tw-bg-opacity, 1));
+}
+.text-dark-brown {
+  --tw-text-opacity: 1;
+  color: rgb(26	24 22 / var(--tw-text-opacity, 1));
+}
+
+ul {
+  list-style-type: circle; /* Change bullet to square */
 }
