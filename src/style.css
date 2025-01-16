@@ -7,13 +7,17 @@ body{
   background-color: #fffff7;
   font-family: Georgia, Times, 'Times New Roman', serif;
 }
-.title {
+.title{
 	color: #2e1402;
-	font-size: 28px;
-}
-h1 {
+	font-size: 30px;
   text-align: auto;
-  color: #eccc99;
+}
+
+.subtitle {
+	color: #2e1402;
+	font-size: 22px;
+  text-align: auto;
+  margin-top: 10px;
 }
 .card {
   width: 80%;
@@ -26,12 +30,14 @@ h1 {
   margin-bottom: 20px;
   display: inline-block;  
 }
+
 .card h2 {
   font-size: 22px;
   margin-top: 0px;
   margin-bottom: -10px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 p{
   font-family: Optima, sans-serif;
 }
@@ -52,10 +58,16 @@ p{
   display: inline-block;
 }
 
+/*
 ul.a {
   font-family: Optima, sans-serif;
   font-size:14px;
   margin-top:0px;
+}
+*/
+ul {
+  list-style-type: disc; /* Bullet points */
+  margin-left: 20px; /* Indentation */
 }
 
 .dates {
@@ -97,6 +109,3 @@ br {
   color: rgb(26	24 22 / var(--tw-text-opacity, 1));
 }
 
-ul {
-  list-style-type: circle; /* Change bullet to square */
-}
